@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cliente</title>
+</head>
+<body>
+
+    <form action="enviado.html" method="post">
+    <h1>Coloque suas informações</h1>
+
+    <label for="Nome"> Nome:</label>
+    <input type="text" name="nome" id="nome" 
+    required="required" autofocus placeholder="Completo">
+
+    <label for="dt-nasc"> Data de Nascimento: </label>
+    <input type="date" name="dt-nasc" id="dt-nasc"
+    required><b>
+           
+    <label for="Nome"> CPF:</label>
+    <input type="text" name="nome" id="nome" 
+    required="required" autofocus placeholder="">
+
+    <label for="email"> Email:</label>
+    <input type="email" name="email" id="email"
+    required placeholder="Exemplo: email@gmail.com"><b>
+
+        <label> Informações Adicionais:</label>
+        <textarea name="Informações"  cols="25" rows="8"
+        maxlength="200" required placeholder="Escreva informações adicionais que achar importante."></textarea>
+       
+        <input type="submit" name="enviar" value="Enviar" id="Enviar">
+        <p>
+        <button id="enviar" href="enviado.html"> Enviar(Simulação)</button>
+        </p>
+<form action=""></form>
+
+</body>
+</html>
