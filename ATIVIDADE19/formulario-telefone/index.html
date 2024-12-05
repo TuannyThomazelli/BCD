@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário Telefone</title>
+</head>
+<body>
+    <h1>Formulário Telefonico</h1>
+    <form action="enviado.html" method="post">
+     
+    <label for="ddd"> ddd:</label>
+    <input type="text" name="ddd" id="ddd">
+
+    <label for="Numero"> Numero:</label>
+    <input type="text" name="Numero" id="Numero">
+
+    <label > Tipo:</label>
+    <select style="width: 99%;" name="Objetivo" required>
+        <option value="">Selecione...</option>
+        <option value="Fixo">Fixo</option>
+        <option value="Movel"> Movel</option>
+        <option value="outro">Outro</option>
+    </select>
+
+    <label > Operadora:</label>
+    <select style="width: 99%;" name="Objetivo" required>
+        <option value="">Selecione...</option>
+        <option value="Fixo">Tim</option>
+        <option value="Movel"> Claro</option>
+        <option value="outro">Vivo</option>
+        <option value="outro">Laricel </option>
+        <option value="outro">Outro</option>
+    </select>
+
+    <label> Informações adicionais:</label>
+    <textarea name="Informações"  cols="25" rows="8"
+    maxlength="500" required placeholder="Escreva informações adicionais que achar importante. "></textarea>
+    
+    <input type="submit" name="enviar" value="Enviar" id="Enviar">
+    <p>
+    <button id="enviar" href="enviado.html"> Enviar(Simulação)</button>
+    </p>
+
+    </form>
+
+    
+</body>
+</html>
